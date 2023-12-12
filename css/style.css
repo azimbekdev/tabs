@@ -1,0 +1,92 @@
+*{
+   margin: 0;
+padding: 0;
+}
+.container{
+  width: 90%;
+   margin:0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background:linear-gradient(#fd000e, #7c3fe9, #2a79eb);
+}
+.group input{
+    display: none;
+}
+.tabs label{
+margin: 0 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+color:white ;
+background: blue;
+font-size: 18px;
+padding: 25px 45px;
+border-radius:10px ;
+}
+.tabs-general{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+#instagram:checked ~ .facebook,
+#instagram:checked ~ .tiktok {
+    display: none;
+}
+#facebook:checked ~ .instagram,
+#facebook:checked ~ .tiktok {
+    display: none;
+}
+
+
+#tiktok:checked ~ .instagram,
+#tiktok:checked ~ .facebook {
+    display: none;
+}
+
+
+
+.group img{
+    width: 300px;
+height:300px ;
+    object-fit: contain;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
